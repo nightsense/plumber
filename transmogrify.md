@@ -40,7 +40,7 @@
 %s/WildMenu",      s:gui08, s:gui0A, s:cterm08, ""/WildMenu",      s:gui00, s:gui06, s:cterm00, s:cterm06/ |
 
 %s/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/CursorLineNr",  s:gui09, s:gui0A, s:cterm09, s:cterm0A/ |
-if @% =~ 'dark' | 125s/00/05/g | 125s/0D/01/g | 127s/09/03/g | 133s/09/00/g | 133s/0A/03/g | endif |
+if @% =~ 'dark' | 125s/00/05/g | 125s/0D/01/g | 127s/09/03/g | 133s/09/08/g | 133s/0A/05/g | endif |
 
 normal =gg
 ```
