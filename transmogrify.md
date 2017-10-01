@@ -30,16 +30,17 @@
 %s/Character",    s:gui08, "", s:cterm08/Character",    s:gui0B, "", s:cterm0B/ |
 %s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui00, s:gui0B, s:cterm00, s:cterm0B/ |
 %s/Identifier",   s:gui08, "", s:cterm08, "", "none/Identifier",   s:gui0B, "", s:cterm0B, "", "bold/ |
-%s/LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01/LineNr",        s:gui09, s:gui0A, s:cterm09, s:cterm0A/ |
+%s/LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01/LineNr",        s:gui00, s:gui0D, s:cterm00, s:cterm0D/ |
+%s/MatchParen",    "", s:gui03, "", s:cterm03/MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03/ |
 %s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A,  "", "")/Search",        s:gui00, s:gui0A, s:cterm00, s:cterm0A,  "", "")/ |
-%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui00, s:gui0B, s:cterm00, s:cterm0B/ |
+%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui00, s:gui09, s:cterm00, s:cterm09/ |
 %s/StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01/StatusLineNC",  s:gui05, s:gui01, s:cterm05, s:cterm01/ |
 %s/Visual",        "", s:gui02, "", s:cterm02/Visual",        s:gui06, s:gui02, s:cterm06, s:cterm02/ |
 %s/VisualNOS",     s:gui08, "", s:cterm08, "", ""/VisualNOS",     "", s:gui01, "", s:cterm01, "none"/ |
 %s/WildMenu",      s:gui08, s:gui0A, s:cterm08, ""/WildMenu",      s:gui00, s:gui06, s:cterm00, s:cterm06/ |
 
 %s/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/CursorLineNr",  s:gui09, s:gui0A, s:cterm09, s:cterm0A/ |
-if @% =~ 'dark' | 125s/09/05/g | 125s/0A/01/g | 133s/09/05/g | 133s/0A/01/g | endif |
+if @% =~ 'dark' | 125s/00/05/g | 125s/0D/01/g | 127s/09/03/g | 133s/09/00/g | 133s/0A/03/g | endif |
 
 normal =gg
 ```
@@ -78,5 +79,5 @@ normal =gg
 %s/f8f8f8/fcfcfc/ge |
 
 call append(123,["",
-"echo -ne '\\e]12;#d47546\\a'"])
+"echo -ne '\\e]12;#00a800\\a'"])
 ```
