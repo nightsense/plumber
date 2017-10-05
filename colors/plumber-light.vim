@@ -94,16 +94,14 @@ endfun
 
 " cursor + status line + selected tab
 cal <sid>h('Cursor'           , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 
 " line numbers
-cal <sid>h('LineNr'           , s:g7 , s:gD , s:t7 , s:tD , 'none'      , ''  )
-
-" current line number
 cal <sid>h('CursorLineNr'     , s:g9 , s:gA , s:t9 , s:tA , 'none'      , ''  )
+cal <sid>h('LineNr'           , s:g0 , s:gD , s:t0 , s:tD , 'none'      , ''  )
 
 " basic text
 cal <sid>h('Bold'             , ''   , ''   , ''   , ''   , 'bold'      , ''  )
