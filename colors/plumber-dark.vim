@@ -99,8 +99,11 @@ cal <sid>h('StatusLineTerm'   , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 cal <sid>h('TabLineSel'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 
+" line numbers
+cal <sid>h('LineNr'           , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
+
 " current line number
-cal <sid>h('CursorLineNr'     , s:g9 , s:gA , s:t9 , s:tA , 'none'      , ''  )
+cal <sid>h('CursorLineNr'     , s:g8 , s:g5 , s:t8 , s:t5 , 'none'      , ''  )
 
 " basic text
 cal <sid>h('Bold'             , ''   , ''   , ''   , ''   , 'bold'      , ''  )
@@ -130,7 +133,6 @@ cal <sid>h('TermCursorNC'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('DiffChange'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('FoldColumn'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('Folded'           , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
-cal <sid>h('LineNr'           , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('MatchParen'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('SignColumn'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('TabLine'          , s:g4 , s:g1 , s:g4 , s:t1 , 'none'      , ''  )
