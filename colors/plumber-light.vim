@@ -144,7 +144,7 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SYNTAX HIGHLIGHTING ======================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g8 , s:g1 , s:t8 , s:t1 , 'none'      , ''  )
+cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t8 , s:t0 , 'undercurl' , s:g8)
@@ -169,7 +169,7 @@ cal <sid>h('Todo'             , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
-cal <sid>h('DiffAdd'          , s:gB , s:g1 , s:tB , s:t1 , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:tB , s:t0 , 'none'      , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , ''          , ''  )
