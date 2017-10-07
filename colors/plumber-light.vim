@@ -69,9 +69,9 @@ endif
 " run theme-setting script if using terminal vim
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/plumber-light'
-"  autocmd CursorMoved * execute 'if !exists("colors_name") |
-"        \ let colors_name = "plumber-light" |
-"        \ colorscheme plumber-light | endif'
+  autocmd CursorMoved * execute 'if !exists("colors_name") |
+        \ let colors_name = "plumber-light" |
+        \ colorscheme plumber-light | endif'
 endif
 
 " clear old theme, activate new
