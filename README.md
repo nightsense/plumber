@@ -10,6 +10,10 @@
 <td align="center"><strong>plumber-<br />dark</strong></td></tr>
 </table>
 
+<blockquote>
+  <p>pictured font: <a href="http://input.fontbureau.com/">Input Mono</a></p>
+</blockquote>
+
 <h2 id="setup">setup</h2>
 
 <h3 id="installation">installation</h3>

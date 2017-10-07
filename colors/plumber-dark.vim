@@ -1,10 +1,18 @@
+" plumber-dark, a vim colourscheme by nightsense
+"
+" generated with a theme template adapted from
+" base16-vim (https://github.com/chriskempson/base16-vim)
+" by Chris Kempson (http://chriskempson.com)
+
+
+"=== SET VARIABLES ============================================================
 
 " GUI colours
 let s:g0 = '000000'
 let s:g1 = '183c5c'
-let s:g2 = '183c5c'
-let s:g3 = '008088'
-let s:g4 = '008088'
+let s:g2 = '008088'
+let s:g3 = '747474'
+let s:g4 = '5c94fc'
 let s:g5 = 'bcbcbc'
 let s:g6 = 'bcbcbc'
 let s:g7 = 'fcfcfc'
@@ -14,8 +22,8 @@ let s:gA = 'fc9838'
 let s:gB = '00a800'
 let s:gC = '008088'
 let s:gD = '5c94fc'
-let s:gE = 'fc74b4'
-let s:gF = 'e40058'
+let s:gE = '183c5c'
+let s:gF = 'fc74b4'
 
 " terminal colours
 let s:t0 = '00'
@@ -42,16 +50,16 @@ if has('nvim')
   let g:terminal_color_2 =  '#00a800'
   let g:terminal_color_3 =  '#fc9838'
   let g:terminal_color_4 =  '#5c94fc'
-  let g:terminal_color_5 =  '#fc74b4'
+  let g:terminal_color_5 =  '#183c5c'
   let g:terminal_color_6 =  '#008088'
   let g:terminal_color_7 =  '#bcbcbc'
-  let g:terminal_color_8 =  '#008088'
+  let g:terminal_color_8 =  '#747474'
   let g:terminal_color_9 =  '#c84c0c'
   let g:terminal_color_10 = '#183c5c'
-  let g:terminal_color_11 = '#183c5c'
-  let g:terminal_color_12 = '#008088'
+  let g:terminal_color_11 = '#008088'
+  let g:terminal_color_12 = '#5c94fc'
   let g:terminal_color_13 = '#bcbcbc'
-  let g:terminal_color_14 = '#e40058'
+  let g:terminal_color_14 = '#fc74b4'
   let g:terminal_color_15 = '#fcfcfc'
 endif
 
@@ -86,9 +94,9 @@ endfun
 
 " cursor + status line + selected tab
 cal <sid>h('Cursor'           , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:gC , s:t0 , s:tC , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:gC , s:t0 , s:tC , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:gC , s:t0 , s:tC , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 
 " line numbers
@@ -128,6 +136,7 @@ cal <sid>h('TabLine'          , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('VisualNOS'        , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 
 " strongly highlighted background
+cal <sid>h('MatchParen'       , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Pmenu'            , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Visual'           , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 
@@ -163,7 +172,6 @@ cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
 cal <sid>h('DiffText'         , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
-cal <sid>h('MatchParen'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('Search'           , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
@@ -196,14 +204,14 @@ cal <sid>h('Number'           , s:gD , ''   , s:tD , ''   , ''          , ''  )
 cal <sid>h('String'           , s:gD , ''   , s:tD , ''   , ''          , ''  )
 
 " PURPLE for special text
-cal <sid>h('Debug'            , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('Delimiter'        , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('Special'          , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
-cal <sid>h('SpecialChar'      , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('SpecialComment'   , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('SpecialKey'       , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
+cal <sid>h('Debug'            , s:g6 , s:gE , s:t6 , s:tE   , ''          , ''  )
+cal <sid>h('Delimiter'        , s:g6 , s:gE , s:t6 , s:tE   , ''          , ''  )
+cal <sid>h('Special'          , s:g6 , s:gE , s:t6 , s:tE   , 'none'      , ''  )
+cal <sid>h('SpecialChar'      , s:g6 , s:gE , s:t6 , s:tE   , ''          , ''  )
+cal <sid>h('SpecialComment'   , s:g6 , s:gE , s:t6 , s:tE   , ''          , ''  )
+cal <sid>h('SpecialKey'       , s:g6 , s:gE , s:t6 , s:tE   , 'none'      , ''  )
 cal <sid>h('SpellRare'        , ''   , ''   , s:tE , s:t0 , 'undercurl' , s:gE)
-cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , ''          , ''  )
+cal <sid>h('Tag'              , s:g6 , s:gE , s:t6 , s:tE   , ''          , ''  )
 
 " PINK for object names
 cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , ''          , ''  )
