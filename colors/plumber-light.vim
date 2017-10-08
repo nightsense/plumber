@@ -171,9 +171,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
-cal <sid>h('Search'           , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
-cal <sid>h('Todo'             , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
+cal <sid>h('Search'           , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
+cal <sid>h('Todo'             , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
