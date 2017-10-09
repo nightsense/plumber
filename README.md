@@ -13,7 +13,7 @@
 </table>
 
 <blockquote>
-  <p>pictured font: <a href="http://input.fontbureau.com/">Input Mono</a></p>
+  <p>pictured font: <a href="http://input.fontbureau.com/">Input Mono Narrow</a> (1.2x line spacing)</p>
 </blockquote>
 
 <h2 id="setup">setup</h2>
