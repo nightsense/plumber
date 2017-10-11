@@ -158,8 +158,8 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SYNTAX HIGHLIGHTING ======================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
-cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
+cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Error'            , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t0 , s:t8 , 'undercurl' , s:g8)
 cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
@@ -167,7 +167,7 @@ cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
 " ORANGE for preliminary elements
 cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('IncSearch'        , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
+cal <sid>h('IncSearch'        , s:g9 , s:g0 , s:t9 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreCondit'        , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
@@ -182,7 +182,7 @@ cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:gB , s:g0 , s:tB , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
@@ -195,10 +195,11 @@ cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
-cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+
 
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
