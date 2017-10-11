@@ -195,10 +195,10 @@ cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
-cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('StorageClass'     , s:gC , s:g7 , s:tC , s:t7 , 'reverse'   , ''  )
+cal <sid>h('Structure'        , s:gC , s:g7 , s:tC , s:t7 , 'reverse'   , ''  )
+cal <sid>h('Type'             , s:gC , s:g7 , s:tC , s:t7 , 'reverse'   , ''  )
+cal <sid>h('Typedef'          , s:gC , s:g7 , s:tC , s:t7 , 'reverse'   , ''  )
 
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
