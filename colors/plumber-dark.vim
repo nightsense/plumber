@@ -233,3 +233,11 @@ if g:plumber_dark_CursorLineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
 endif
 endif
+
+" disable LineNr background altogether
+if exists('g:plumber_dark_LineNr')
+if g:plumber_dark_LineNr == 'off'
+cal <sid>h('CursorLineNr'     , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+cal <sid>h('LineNr'           , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+endif
+endif

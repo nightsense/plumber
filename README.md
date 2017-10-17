@@ -63,6 +63,13 @@ let g:plumber_light_CursorLineNr = 'off'
 </code></pre>
 </div>
 
+<p>Disable the highlighted <strong>line number background</strong>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>let g:plumber_dark_LineNr = 'off'
+let g:plumber_light_LineNr = 'off'
+</code></pre>
+</div>
+
 <h2 id="terminal-vim">terminal vim</h2>
 
 <p>See the <a href="https://github.com/nightsense/nightshell">nightshell</a> repository, which allows plumber to be used in a variety of terminal applications.</p>
