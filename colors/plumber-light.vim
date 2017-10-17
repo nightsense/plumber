@@ -223,3 +223,13 @@ cal <sid>h('Tag'              , s:g0 , s:gE , s:t0 , s:tE   , 'none'      , ''  
 " PINK for object names
 cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
+
+
+"=== OPTIONS ==================================================================
+
+" disable highlighted CursorLineNr
+if exists('g:plumber_light_CursorLineNr')
+if g:plumber_light_CursorLineNr == 'off'
+cal <sid>h('CursorLineNr'     , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
+endif
+endif
