@@ -112,10 +112,10 @@ cal <sid>h('LineNr'           , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
 
 " basic text
 cal <sid>h('Bold'             , ''   , ''   , ''   , ''   , 'bold'      , ''  )
-cal <sid>h('Directory'        , s:g5 , ''   , s:t5 , ''   , 'bold'      , ''  )
+cal <sid>h('Directory'        , s:g6 , ''   , s:t6 , ''   , 'bold'      , ''  )
 cal <sid>h('Italic'           , ''   , ''   , ''   , ''   , 'italic'    , ''  )
-cal <sid>h('Normal'           , s:g5 , s:g0 , s:t5 , s:t0 , 'none'      , ''  )
-cal <sid>h('Underlined'       , s:g5 , ''   , s:t5 , ''   , 'underline' , ''  )
+cal <sid>h('Normal'           , s:g6 , s:g0 , s:t6 , s:t0 , 'none'      , ''  )
+cal <sid>h('Underlined'       , s:g6 , ''   , s:t6 , ''   , 'underline' , ''  )
 
 " commented-out text
 cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
@@ -129,8 +129,8 @@ cal <sid>h('ColorColumn'      , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('CursorColumn'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('CursorLine'       , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('QuickFixLine'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
-cal <sid>h('StatusLineNC'     , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
-cal <sid>h('StatusLineTermNC' , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
+cal <sid>h('StatusLineNC'     , s:g6 , s:g1 , s:t6 , s:t1 , 'none'      , ''  )
+cal <sid>h('StatusLineTermNC' , s:g6 , s:g1 , s:t6 , s:t1 , 'none'      , ''  )
 cal <sid>h('TabLineFill'      , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('TermCursorNC'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 
@@ -148,7 +148,7 @@ cal <sid>h('Pmenu'            , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Visual'           , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 
 " selected menu item
-cal <sid>h('PmenuSel'         , s:g0 , s:g5 , s:t0 , s:t5 , 'none'      , ''  )
+cal <sid>h('PmenuSel'         , s:g0 , s:g6 , s:t0 , s:t6 , 'none'      , ''  )
 cal <sid>h('WildMenu'         , s:g0 , s:g6 , s:t0 , s:t6 , 'none'      , ''  )
 
 " solid lines
@@ -178,9 +178,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:gA , s:g5 , s:tA , s:t5 , 'reverse'   , ''  )
-cal <sid>h('Search'           , s:gA , s:g5 , s:tA , s:t5 , 'reverse'   , ''  )
-cal <sid>h('Todo'             , s:gA , s:g5 , s:tA , s:t5 , 'reverse'   , ''  )
+cal <sid>h('DiffText'         , s:gA , s:g6 , s:tA , s:t6 , 'reverse'   , ''  )
+cal <sid>h('Search'           , s:gA , s:g6 , s:tA , s:t6 , 'reverse'   , ''  )
+cal <sid>h('Todo'             , s:gA , s:g6 , s:tA , s:t6 , 'reverse'   , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
