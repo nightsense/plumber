@@ -157,7 +157,7 @@ cal <sid>h('PmenuThumb'       , s:g4 , s:g4 , s:t4 , s:t4 , 'none'      , ''  )
 cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 
 
-"=== SYNTAX HIGHLIGHTING ======================================================
+"=== ALERT/SYNTAX HIGHLIGHTING ================================================
 
 " RED for warning elements
 cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
