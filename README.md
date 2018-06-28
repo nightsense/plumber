@@ -1,3 +1,11 @@
+**Note: this repository is archived; my active vim theme is [snow](https://github.com/nightsense/snow).**
+
+.
+
+.
+
+.
+
 <h1 id="plumber">plumber</h1>
 
 <p>A vim theme inspired by <a href="http://ian-albert.com/games/super_mario_bros_maps/">a certain game</a>.</p>
